@@ -1,0 +1,41 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Test binaries
+*.test
+
+# Output binaries
+bin/
+dist/
+
+# Dependencies
+vendor/
+go.sum
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Generated code
+.gen/
+*.pb.go
+
+# Build artifacts
+build/
+out/
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
